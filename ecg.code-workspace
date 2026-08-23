@@ -1,0 +1,56 @@
+{
+    "folders": [
+	{
+		"name": "ECG",
+		"path": "C:\\git\\ecg-heart-rate-algorithm\\",
+	}
+	],
+  "settings": {
+
+	  // git settings
+	  "git.detectSubmodules": true,
+	  "git.detectSubmodulesLimit": 20,
+	  // Extension: GitGraph
+	  "git-graph.repository.fetchAndPrune": true,
+	  "git-graph.dialog.fetchRemote.prune": true,
+	  "git-graph.dialog.fetchRemote.pruneTags": true,
+	  "git-graph.repository.fetchAndPruneTags": true,
+	  "git-graph.repository.commits.fetchAvatars": true,
+
+	  //show local HEAD when opening GitGraph (instead of top of repo)
+	  "git-graph.repository.onLoad.scrollToHead": true,
+	
+	  // Editor settings
+	  // use space instead of Tabs
+	  "editor.useTabStops": "false",
+	  "editor.insertSpaces": true,
+	  
+	  // Workbench settings
+	  "workbench.editor.labelFormat": "default",
+	  "workbench.colorTheme": "Dark Modern",
+
+	  //"terminal.integrated.cwd": "${workspaceFolder}",
+	  "terminal.integrated.profiles.windows": {
+			"PowerShell": null,
+			"Command Prompt": null,
+			"JavaScript Debug Terminal": null,
+			"Select Default Profile": null,
+	        "git_ecg": {
+				"label": "Git Bash",
+	            "path": "C:/Program Files/Git/bin/bash.exe"
+				//"icon": "terminal-cmd"
+	        },
+			"terminal.integrated.defaultProfile.windows": "cmder"
+	  },
+		  
+	// General settings - unlikely to be overwritten per project or per computer
+	"terminal.integrated.rendererType": "experimentalWebgl",
+	"terminal.integrated.scrollback": 10000000000,
+	"editor.renderWhitespace": "all",
+	"editor.wordBasedSuggestions": "off",
+	"editor.formatOnSave": false,
+	"editor.rulers": [120],  
+
+	"markdown.styles": ["https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"]
+  },
+}

@@ -1,0 +1,21 @@
+{
+    "record": "100",
+    "duration": 0,
+    "plots_directory": "C:\\git\\ecg-heart-rate-algorithm\\docs\\plots\\",
+    "plots_extension": ".png",
+
+    "filter": {
+        "lowcut_hz": 0.5,
+        "highcut_hz": 40.0,
+        "order": 4
+    },
+
+    "peak_detection": {
+        "min_distance_seconds": 0.5,
+        "prominence": 0.5
+    },
+
+    "validation": {
+        "tolerance_ms": 50
+    }
+}

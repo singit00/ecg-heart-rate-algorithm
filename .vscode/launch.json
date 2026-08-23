@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ecg-heart-rate-algorithm",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "C:\\git\\ecg-heart-rate-algorithm\\.venv\\Scripts\\python.exe",
+            "envFile": "C:\\git\\ecg-heart-rate-algorithm\\.venv",
+            "env": {
+                "PYTHONPATH": "C:\\git\\ecg-heart-rate-algorithm\\.venv\\Scripts\\python.exe"
+            },
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
